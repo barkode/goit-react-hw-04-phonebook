@@ -15,7 +15,6 @@ export function App() {
     const parseContacts = JSON.parse(localStorage.getItem(LS_KEY));
     if (parseContacts) {
       setContacts(parseContacts);
-      return;
     }
   }, []);
 

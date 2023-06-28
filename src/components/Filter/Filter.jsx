@@ -13,7 +13,7 @@ const Filter = ({ filter, onFilterChange }) => {
         value={filter}
         onChange={onFilterChange}
         className={css.input}
-      ></input>
+      />
     </div>
   );
 };
